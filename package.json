@@ -1,0 +1,41 @@
+{
+  "name": "test-task",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.tsx",
+  "scripts": {
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@babel/preset-react": "^7.27.1",
+    "@eslint/js": "^9.34.0",
+    "@types/node": "^24.3.0",
+    "@types/react": "^19.1.11",
+    "@types/react-dom": "^19.1.7",
+    "babel-loader": "^10.0.0",
+    "css-loader": "^7.1.2",
+    "eslint": "^9.34.0",
+    "eslint-plugin-react": "^7.37.5",
+    "globals": "^16.3.0",
+    "html-webpack-plugin": "^5.6.4",
+    "style-loader": "^4.0.0",
+    "ts-loader": "^9.5.4",
+    "typescript": "^5.9.2",
+    "typescript-eslint": "^8.40.0",
+    "webpack": "^5.101.3",
+    "webpack-cli": "^6.0.1",
+    "webpack-dev-server": "^5.2.2"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "styled-components": "^6.1.19",
+    "swiper": "^11.2.10"
+  }
+}
